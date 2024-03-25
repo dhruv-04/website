@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Yes!</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: rgb(219, 173, 181);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img{
+                width: 100%;
+            }
+
+        .text{
+            font-size: larger;
+        }
+
+        button{
+            margin-top: 10%;
+            border-radius: 5%;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            height: 50px;
+            background-color: rgb(111, 135, 206);
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="bear-angry.gif" alt="ye bhi nhi btaunga">
+        <div class="text">
+            You are not allowed to say no!
+        </div>
+        <button type="button" onclick="takeMeBack()">Okay! Take me back 🥲</button>
+    </div>    
+</body>
+
+<script>
+    function takeMeBack(){
+        window.location.href = "index.html";
+    }
+</script>
+
+</html>
